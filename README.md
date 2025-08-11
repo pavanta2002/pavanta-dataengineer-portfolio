@@ -1,36 +1,168 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pavanta M - Data Engineer Portfolio
 
-## Getting Started
+A modern, responsive portfolio website showcasing the professional experience, projects, and technical skills of Pavanta M, a Data Engineer specializing in Azure cloud technologies, data pipelines, and performance optimization.
 
-First, run the development server:
+## 🎯 Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This portfolio website is built with Next.js, TypeScript, and Tailwind CSS to provide a fast, accessible, and visually appealing showcase of professional achievements in data engineering.
+
+## 🚀 Features
+
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Modern UI/UX**: Clean, professional design with smooth animations
+- **Performance Optimized**: Built with Next.js for fast loading and SEO
+- **Accessibility**: WCAG compliant with proper focus management
+- **Interactive Elements**: Smooth scrolling navigation and hover effects
+- **Contact Form**: Functional contact form with validation
+
+## 🏗️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Heroicons
+- **Deployment**: Ready for Vercel, Netlify, or any static hosting
+
+## 📱 Sections
+
+1. **Hero**: Professional introduction with contact information
+2. **About**: Personal background, achievements, and education
+3. **Experience**: Detailed work history with quantified achievements
+4. **Projects**: Featured projects with technical details
+5. **Skills**: Technical competencies organized by category
+6. **Contact**: Contact form and professional links
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js 18.17 or later
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── src/
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   └── components/
+│       ├── About.tsx
+│       ├── Contact.tsx
+│       ├── Experience.tsx
+│       ├── Hero.tsx
+│       ├── Navbar.tsx
+│       ├── Projects.tsx
+│       └── Skills.tsx
+├── public/
+├── .github/
+│   └── copilot-instructions.md
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The portfolio is designed to be easily customizable:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Colors**: Modify the Tailwind color scheme in `tailwind.config.js`
+- **Content**: Update component files with your own information
+- **Styling**: Adjust styles in `globals.css` or component files
+- **Animations**: Customize animations in the CSS or add new ones
 
-## Learn More
+## 📊 Key Achievements Highlighted
 
-To learn more about Next.js, take a look at the following resources:
+- **30% improvement** in data load performance
+- **40% reduction** in query execution time
+- **99.9% pipeline uptime** achieved
+- **25% enhancement** in data quality
+- **$200/month** in cost savings
+- **500+ GB daily** data processing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🏆 Professional Experience
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Data Engineer @ ELANCO (Current)
+- Azure Data Factory & Databricks expertise
+- ETL/ELT pipeline development
+- Performance optimization and cost reduction
+- Cross-functional collaboration
 
-## Deploy on Vercel
+### Software Engineering Intern @ Juniper Networks
+- Network management software development
+- Python automation scripts
+- Documentation and troubleshooting
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎓 Education & Certification
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **B.Tech** in Information Science and Engineering, UVCE Bangalore (9.04 CGPA)
+- **Databricks Certified Data Engineer Associate**
+
+## 📞 Contact Information
+
+- **Email**: pavanta1806@gmail.com
+- **Phone**: +91 8618208278
+- **LinkedIn**: [linkedin.com/in/pavanta-m-9665aa208](https://www.linkedin.com/in/pavanta-m-9665aa208/)
+
+## 🚀 Deployment
+
+The portfolio is ready for deployment on various platforms:
+
+### Vercel (Recommended)
+```bash
+npm run build
+# Deploy to Vercel
+```
+
+### Netlify
+```bash
+npm run build
+npm run export
+# Deploy the `out` folder to Netlify
+```
+
+### Other Platforms
+```bash
+npm run build
+# Deploy the `.next` folder or use `npm start` for server deployment
+```
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+While this is a personal portfolio, suggestions and improvements are welcome! Please feel free to open an issue or submit a pull request.
+
+---
+
+**Built with ❤️ by Pavanta M using Next.js and Tailwind CSS**
