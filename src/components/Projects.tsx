@@ -1,3 +1,5 @@
+"use client";
+
 const Projects = () => {
   const projects = [
     {
@@ -161,27 +163,6 @@ const Projects = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Call to Action */}
-        <div className="mt-16 text-center">
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg p-8 border border-blue-200">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Interested in My Work?</h3>
-            <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-              These projects showcase my ability to deliver high-quality data engineering solutions. 
-              I&apos;m always excited to discuss new challenges and opportunities.
-            </p>
-            <a
-              href="#contact"
-              className="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
-                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
-              </svg>
-              Get In Touch
-            </a>
-          </div>
         </div>
       </div>
     </section>

@@ -15,8 +15,7 @@ const Skills = () => {
       icon: "☁️",
       gradient: "from-purple-500 to-pink-500",
       skills: [
-        { name: "Snowflake", level: 90, description: "Warehousing, Schema Design, Query Optimization, Time Travel, Cloning" },
-        { name: "Azure Synapse Analytics", level: 85, description: "Data Warehousing, Integration with Snowflake" },
+        { name: "Azure Synapse Analytics", level: 85, description: "Data Warehousing, Analytics Workspaces, SQL Pools" },
         { name: "Azure Data Lake Storage", level: 85, description: "ADLS Gen2, Data Storage Solutions" }
       ]
     },
